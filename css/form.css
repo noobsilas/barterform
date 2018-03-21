@@ -1,0 +1,35 @@
+
+body
+{
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.style-input
+{
+    width: 100%;
+    height: 45px;
+    padding: 15px 10px;
+    border: none;
+    border-bottom: 1px solid #b6b9b9;
+
+}
+
+.style-input:focus
+{
+    border-bottom: 1px solid blue;
+}
+
+.mb-5
+{
+    margin-bottom: 5%;
+}
+
+.my-btn
+{
+    border-radius: 80px;
+    height: 40px;
+    background-color: royalblue;
+    padding: 15px;
+    text-align: center;
+    display: inline-block;
+}
