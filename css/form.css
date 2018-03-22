@@ -26,7 +26,8 @@ body
 
 .my-btn
 {
-    border-radius: 80px !important;
+    border-radius: 80px;
+
 }
 
 .tab_flip_link
@@ -55,3 +56,60 @@ body
 
 .hide{ display: none; }
 .show{ display: inline; }
+
+.mt-15
+{
+    margin-top: 90px;
+}
+
+.logo
+{
+    max-height: 30px;
+}
+
+.submit-button
+{
+    background-color: rgba(0, 0, 255, 0.4);
+    height: 60px;
+    width: 250px;
+    border-radius: 80px;
+    text-decoration: none;
+}
+
+.submit-button:hover
+{
+    background-color:rgba(0, 1, 255, 1);
+}
+
+.button-text
+{
+    text-align: center;
+    padding-top: 20px;
+    color: white;
+}
+
+.FB-button
+{
+    background-color: rgba(16, 7, 65, 0.76);
+    height: 60px;
+    width: 250px;
+    border-radius: 80px;
+}
+
+.FB-button:hover
+{
+    background-color: rgba(53, 45, 100, 0.76); 
+}
+
+.G-button
+{
+    background-color: rgba(175, 16, 16, 0.76);
+    height: 60px;
+    width: 250px;
+    border-radius: 80px;
+}
+
+.G-button:hover
+{
+    background-color: rgba(190, 87, 87, 0.76); 
+}
