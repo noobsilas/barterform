@@ -26,10 +26,32 @@ body
 
 .my-btn
 {
-    border-radius: 80px;
-    height: 40px;
-    background-color: royalblue;
-    padding: 15px;
-    text-align: center;
-    display: inline-block;
+    border-radius: 80px !important;
 }
+
+.tab_flip_link
+{
+    text-decoration: none;
+    color: #000;
+}
+.tab_flip_link:hover{
+    text-decoration: none;
+}
+
+.tab_flip_link_wrapper
+{
+    border-bottom: 1px solid #c0c0c0;
+    padding-bottom: 15px;
+}
+.tab_flip_link_wrapper:hover
+{
+    border-bottom: 1px solid blue;
+}
+
+.tab_flip_link_wrapper_active
+{
+    border-bottom: 1px solid blue;
+}
+
+.hide{ display: none; }
+.show{ display: inline; }
